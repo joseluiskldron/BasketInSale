@@ -1,0 +1,55 @@
+body {
+  font-family: Josefin Sans;
+}
+
+#contenedor div {
+  color: red;
+}
+#menu{
+     text-align: center;
+     color: white;
+     background:red;
+     font-family:calibri;
+     font-size: 18px;
+     padding: 15px;
+     display: flex;
+     font-family: Josefin Sans;
+     justify-content: space-between;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#contenido{
+          float:left;
+          width:100%;
+          text-align:center;
+}
+#barner1{
+        float:left;
+        width:25%;
+        margin:0;
+}
+#barner2{
+        float:left;
+        width:25%;
+}
+#barner3{
+        float:left;
+        width:25%;
+        margin:0;
+}
+
+#barner1, #barner2, #barner3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.barners {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  padding: 0 50px;
+}

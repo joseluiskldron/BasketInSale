@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+}
+
+#menu{
+     text-align: center;
+     color: white;
+     background:red;
+     font-family:calibri;
+     font-size: 18px;
+     padding: 15px;
+     display: flex;
+     font-family: Josefin Sans;
+     justify-content: space-between;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#productos {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+}
+
+#titulo {
+  font-size: 48px;
+  margin-top: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.centrar {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
